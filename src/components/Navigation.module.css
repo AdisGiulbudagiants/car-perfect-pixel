@@ -1,0 +1,20 @@
+.main {
+  margin-top: 40px;
+  @apply flex text-white justify-between;
+}
+
+.punkt {
+  @apply flex;
+}
+
+.text {
+  font-size: 24px;
+  margin: 0 40px 0 0;
+}
+.text:last-child {
+  margin: 0;
+}
+.text:hover {
+  transform: scale(1.075);
+  @apply text-red cursor-pointer;
+}

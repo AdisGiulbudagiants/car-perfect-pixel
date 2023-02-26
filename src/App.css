@@ -1,4 +1,5 @@
 .App {
-  width: 1296px;
-  @apply flex mx-auto;
+  width: 100%;
+  background-image: url("./backgroundCar.jpg");
+  @apply bg-no-repeat flex bg-black;
 }
