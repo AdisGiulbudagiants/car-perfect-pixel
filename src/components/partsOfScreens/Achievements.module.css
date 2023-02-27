@@ -1,0 +1,30 @@
+.main {
+  width: 1296px;
+  height: 745px;
+  margin-top: 180px;
+  @apply flex;
+}
+
+.leftWrapper {
+  width: 660px;
+  height: 745px;
+}
+
+.header {
+  width: 636px;
+  font-size: 40px;
+  @apply text-white;
+}
+
+.text {
+  width: 526px;
+  font-size: 24px;
+  margin-top: 60px;
+  @apply text-white;
+}
+
+.rightWrapper {
+  width: 636px;
+  height: 745px;
+  @apply flex;
+}

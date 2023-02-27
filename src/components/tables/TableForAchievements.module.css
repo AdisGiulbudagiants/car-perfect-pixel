@@ -1,0 +1,29 @@
+.table__tbody {
+  @apply flex-col flex;
+}
+.table__td {
+  width: 319px;
+  height: 177px;
+  @apply border border-solid border-grey border-b-0;
+}
+.table__td:last-child {
+  @apply border-b;
+}
+.table__h1 {
+  font-size: 52px;
+  @apply text-red flex justify-center items-end;
+}
+.table__span {
+  font-size: 35px;
+  @apply text-red justify-center flex items-end;
+}
+.table__text {
+  width: 277px;
+  height: 66px;
+  font-size: 16px;
+  @apply text-white text-center mx-auto;
+}
+
+.table2 {
+  margin-top: 40px;
+}

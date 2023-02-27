@@ -9,8 +9,11 @@
 .text
     font-size: 24px
     margin: 0 40px 0 0
+    @apply select-none
     &:last-child
         margin: 0
     &:hover
         transform: scale(1.075)
         @apply text-red cursor-pointer
+    &:active
+        @apply text-opacity-75 duration-75

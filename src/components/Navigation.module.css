@@ -10,6 +10,7 @@
 .text {
   font-size: 24px;
   margin: 0 40px 0 0;
+  @apply select-none;
 }
 .text:last-child {
   margin: 0;
@@ -17,4 +18,7 @@
 .text:hover {
   transform: scale(1.075);
   @apply text-red cursor-pointer;
+}
+.text:active {
+  @apply text-opacity-75 duration-75;
 }
