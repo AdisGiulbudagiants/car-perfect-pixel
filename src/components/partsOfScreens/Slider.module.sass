@@ -1,11 +1,7 @@
 .main
     width: 1296px
     height: 375px
-    @apply bg-grey flex mb-5
-
-.img
-    width: 346px
-    height: 312px
+    @apply flex mb-5
 
 .leftArrow,.rightArrow
     &:hover
@@ -16,6 +12,25 @@
     @apply flex justify-center
 
 .card
+    width: 346px
+    height: 375px
+    position: relative
+    z-index: 0
     @apply mr-5
     &:last-child
         @apply m-0
+
+.img
+    width: 346px
+    height: 312px
+    position: absolute
+    z-index: 1
+    @apply object-cover
+
+.button
+    position: absolute
+    z-index: 2
+    margin-top: 281px
+    margin-left: 80px
+
+    @apply flex justify-center
