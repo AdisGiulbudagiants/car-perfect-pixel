@@ -1,0 +1,19 @@
+<svg
+  width="59"
+  height="64"
+  viewBox="0 0 59 64"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <rect
+    x="2.04519"
+    width="40.148"
+    height="40.148"
+    transform="matrix(0.681729 -0.731604 0.681729 0.731604 0.650923 33.315)"
+    stroke="#DB3138"
+    stroke-width="3"
+  />
+  <path
+    d="M32.4475 25.121L26.2076 31.8174L32.4475 38.5138L31.1995 41.1924L22.4636 31.8174L31.1995 22.4424L32.4475 25.121Z"
+    fill="white"
+  />
+    </svg>

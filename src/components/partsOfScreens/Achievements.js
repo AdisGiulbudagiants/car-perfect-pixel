@@ -1,4 +1,4 @@
-import SvgStore from "../SvgStore"
+import { ReactComponent as Dots } from "../icons/dots.svg"
 import TableForAchievements from "../tables/TableForAchievements"
 import styles from "./Achievements.module.css"
 
@@ -10,7 +10,7 @@ const Achievements = () => {
           OUR ACHIEVEMENTS FROM THE RUSSIAN CUP TO THE WORLD CHAMPIONSHIPS
         </h1>
         <div style={{ marginTop: 18 }}>
-          <SvgStore id="dots" />
+          <Dots />
         </div>
         <p className={styles.text}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant

@@ -11,11 +11,12 @@
 }
 .table__h1 {
   font-size: 52px;
-  @apply text-red flex justify-center items-end;
+  margin-top: 25px;
+  @apply text-coral flex justify-center items-end;
 }
 .table__span {
   font-size: 35px;
-  @apply text-red justify-center flex items-end;
+  @apply text-coral justify-center flex items-end;
 }
 .table__text {
   width: 277px;

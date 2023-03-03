@@ -1,35 +1,37 @@
+.master {
+  margin-top: 100px;
+}
+
 .tr, .td {
   width: 1296px;
   @apply border border-grey border-solid text-white;
 }
 
 .td {
-  height: 214px;
   min-width: 432px;
 }
 
 .table {
-  @apply flex justify-center items-center flex-col;
+  height: 155px;
+  @apply flex items-center justify-center flex-col;
 }
 .table__header {
   font-size: 18px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
 }
 .table__text {
   font-size: 24px;
   width: 265px;
-  height: 68px;
-  @apply text-red;
+  height: 85px;
+  margin: 0 0 15px 0;
+  line-height: 25px;
+  @apply text-coral text-center uppercase;
 }
 .table__numbers, .table__date {
   margin-bottom: 15px;
   font-size: 24px;
-  @apply text-red;
+  @apply text-coral;
 }
 .table__numbers:last-child, .table__date:last-child {
   margin: 0;
-}
-
-.mainTable {
-  margin-top: 100px;
 }

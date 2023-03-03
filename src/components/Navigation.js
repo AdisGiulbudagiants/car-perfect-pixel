@@ -1,5 +1,5 @@
+import { ReactComponent as Flag } from "./icons/flag.svg"
 import styles from "./Navigation.module.css"
-import SvgStore from "./SvgStore"
 
 const Navigation = () => {
   return (
@@ -10,7 +10,8 @@ const Navigation = () => {
         <p className={styles.text}>Third</p>
         <p className={styles.text}>Gallery</p>
       </div>
-      <SvgStore id="flag" />
+      {/* <SvgStore id="flag" /> */}
+      <Flag />
     </div>
   )
 }

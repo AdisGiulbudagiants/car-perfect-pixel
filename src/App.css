@@ -1,5 +1,5 @@
 .App {
   width: 100%;
   background-image: url("./backgroundCar.jpg");
-  @apply bg-no-repeat flex bg-black;
+  @apply bg-no-repeat bg-scroll flex;
 }

@@ -2,7 +2,7 @@ import styles from "./TableForWelcome.module.css"
 
 const TableForWelcome = () => {
   return (
-    <>
+    <div className={styles.master}>
       <table className={styles.mainTable}>
         <tbody>
           <tr className={styles.tr}>
@@ -31,7 +31,7 @@ const TableForWelcome = () => {
           </tr>
         </tbody>
       </table>
-    </>
+    </div>
   )
 }
 

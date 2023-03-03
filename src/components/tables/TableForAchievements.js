@@ -1,4 +1,4 @@
-import SvgStore from "../SvgStore"
+import { ReactComponent as Cup } from "../icons/cup.svg"
 import styles from "./TableForAchievements.module.css"
 
 const TableForAchievements = () => {
@@ -78,7 +78,7 @@ const TableForAchievements = () => {
             <div
               className="flex justify-center"
               style={{ marginTop: 30, marginBottom: 22 }}>
-              <SvgStore id="cup" />
+              <Cup />
             </div>
             <p className={styles.table__text}>
               LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. QUISQUE

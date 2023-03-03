@@ -1,7 +1,12 @@
+.main {
+  height: 960px;
+  margin: 40px 0 180px 0;
+}
+
 .header {
   font-size: 150px;
   margin-top: 168px;
-  @apply text-red flex justify-center select-none;
+  @apply text-coral flex justify-center select-none;
 }
 
 .text {
