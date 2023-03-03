@@ -2,15 +2,15 @@ import { Carousel } from "flowbite-react"
 import { ReactComponent as LeftArrow } from "../icons/leftArrow.svg"
 import { ReactComponent as RightArrow } from "../icons/rightArrow.svg"
 import Button from "../Button"
-import car1 from "./1.jpg"
-import car2 from "./2.jpg"
-import car3 from "./3.jpg"
-import car6 from "./6.jpg"
-import car7 from "./7.jpg"
-import car8 from "./8.jpg"
-import car11 from "./11.jpg"
-import car12 from "./12.jpg"
-import car13 from "./13.jpg"
+import car1 from "./img/1.jpg"
+import car2 from "./img/2.jpg"
+import car3 from "./img/3.jpg"
+import car6 from "./img/6.jpg"
+import car7 from "./img/7.jpg"
+import car8 from "./img/8.jpg"
+import car11 from "./img/11.jpg"
+import car12 from "./img/12.jpg"
+import car13 from "./img/13.jpg"
 import styles from "./Slider.module.css"
 
 const Slider = () => {
@@ -20,7 +20,7 @@ const Slider = () => {
         leftControl={<LeftArrow className={styles.leftArrow} />}
         rightControl={<RightArrow className={styles.rightArrow} />}
         indicators={false}
-        slideInterval={100000}>
+        slideInterval={10000}>
         <>
           <div className={styles.page}>
             <div className={styles.card}>

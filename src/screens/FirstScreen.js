@@ -1,6 +1,7 @@
 import Achievements from "../components/partsOfScreens/Achievements"
 import Welcome from "../components/partsOfScreens/Welcome"
 import Slider from "../components/partsOfScreens/Slider"
+import Advantages from "../components/partsOfScreens/Advantages"
 import styles from "./FirstScreen.module.css"
 
 const FirstScreen = () => {
@@ -9,6 +10,7 @@ const FirstScreen = () => {
       <Welcome />
       <Achievements />
       <Slider />
+      <Advantages />
       <div className="mt-40 bg-grey">Hello</div>
     </div>
   )
