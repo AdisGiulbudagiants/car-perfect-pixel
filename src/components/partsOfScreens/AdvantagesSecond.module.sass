@@ -1,0 +1,74 @@
+
+.main
+    width: 1296px
+    height: 836px
+    @apply flex
+
+.leftWrapper,.rightWrapper
+    width: 50%
+
+.rightWrapper
+    @apply flex flex-col items-end
+
+.materials
+    @apply justify-end
+    &__iconAndHeader
+        @apply flex
+    &__header
+        font-size: 32px
+        margin-left: 36px
+        width: 426px
+        @apply  text-white uppercase
+    &__description
+        font-size: 24px
+        width: 526px
+        @apply text-white uppercase
+
+.experience
+    &__iconAndHeader
+        @apply flex
+    &__header
+        font-size: 32px
+        margin: 12px 0 0 30px
+        width: 426px
+        @apply  text-white uppercase
+    &__description
+        font-size: 24px
+        margin: 30px 0 0 0
+        width: 526px
+        @apply text-white uppercase
+
+.garant
+    &__iconAndHeader
+        @apply flex
+    &__header
+        font-size: 32px
+        margin: 15px 0 0 30px
+        width: 426px
+        @apply  text-white uppercase
+    &__description
+        font-size: 24px
+        width: 526px
+        @apply text-white uppercase
+
+.dots
+    @apply mx-auto mt-10 mb-10
+
+.leftArrow,.rightArrow
+    margin-top: 420px
+    &:hover
+        transform: scale(1.075)
+        @apply fill-coral
+
+.img
+    width: 100%
+    @apply object-cover
+
+.text
+    width: 422px
+    max-height: 75px
+    font-size: 18px
+    @apply mt-10 mx-auto text-white text-center uppercase
+
+span
+    font-weight: 900
