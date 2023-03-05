@@ -1,0 +1,35 @@
+.main {
+  width: 1296px;
+  height: 771px;
+  margin-bottom: 180px;
+  @apply flex flex-col;
+}
+
+.header {
+  font-size: 52px;
+  width: 636px;
+  height: 60px;
+  @apply uppercase text-white text-center mx-auto;
+}
+.header__h1 {
+  height: 60px;
+}
+
+.dots {
+  margin-bottom: 60px;
+  @apply mx-auto mt-10;
+}
+
+.leftControl {
+  position: absolute;
+  width: 187px;
+  top: 0;
+  left: 461px;
+}
+
+.rightControl {
+  position: absolute;
+  width: 187px;
+  top: 0;
+  right: 461px;
+}
