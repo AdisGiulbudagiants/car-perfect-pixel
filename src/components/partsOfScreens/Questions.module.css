@@ -1,0 +1,155 @@
+.main {
+  width: 1296px;
+  height: 745px;
+  @apply flex flex-col;
+}
+
+.wrapper {
+  width: 658px;
+  @apply mx-auto;
+}
+
+.header {
+  font-size: 48px;
+  @apply text-white text-center uppercase;
+}
+
+.dots {
+  margin: 40px 0 40px 0;
+  @apply flex justify-center;
+}
+
+.partOne {
+  height: 350px;
+  @apply flex flex-col;
+}
+.partOne__inputs {
+  height: 53px;
+  @apply flex;
+}
+
+.name, .phone, .questions {
+  width: 306px;
+  height: 53px;
+  font-size: 20px;
+  padding-left: 5px;
+  @apply bg-black text-white border border-grey border-solid mr-6 ml-1;
+}
+.name:focus, .phone:focus, .questions:focus {
+  font-size: 20px;
+  padding-left: 5px;
+  @apply border-coral outline-none text-white;
+}
+.name::placeholder, .phone::placeholder, .questions::placeholder {
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.partTwo {
+  height: 171px;
+  margin-top: 27px;
+  @apply flex;
+}
+.partTwo__questions {
+  width: 526px;
+  height: 171px;
+  margin-right: 70px;
+}
+.partTwo__socials {
+  width: 47px;
+  @apply flex flex-col items-end;
+}
+
+.links {
+  margin-bottom: 17px;
+}
+.links:last-child {
+  margin-bottom: 0;
+}
+.links:hover {
+  transform: scale(1.075);
+}
+
+.questions {
+  width: 526px;
+  height: 171px;
+  @apply resize-none;
+}
+.questions:focus {
+  @apply ring-0;
+}
+.questions::placeholder {
+  padding-left: 20px;
+}
+
+.partThree {
+  width: 658px;
+  height: 70px;
+  margin-left: 5px;
+  margin-top: 27px;
+  @apply flex;
+}
+.partThree__leftWrapper {
+  height: 70px;
+  width: 187px;
+}
+.partThree__rightWrapper {
+  margin-left: 70px;
+}
+.partThree__geo {
+  @apply flex;
+}
+.partThree__phone {
+  margin-right: 10px;
+  @apply flex;
+}
+.partThree__mail {
+  @apply flex;
+}
+
+.phoneAndMail {
+  margin-left: 80px;
+  @apply flex;
+}
+
+.text {
+  font-size: 16px;
+  margin-left: 10px;
+  @apply text-white uppercase;
+}
+
+.hr {
+  width: 1296px;
+  margin: 114px 0 0 0;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.footer {
+  height: 60px;
+  width: 1296px;
+  margin: 0 0 7px 0;
+  @apply rounded-none flex justify-between;
+}
+.footer__text {
+  margin: 38px 0 25px 0;
+  font-size: 14px;
+  @apply text-grey uppercase;
+}
+.footer__links {
+  @apply flex justify-end;
+}
+.footer__link {
+  margin: 38px 10px 0 0;
+  font-size: 16px;
+  @apply text-white;
+}
+.footer__link:last-child {
+  margin-right: 0;
+}
+.footer__link:hover {
+  transform: scale(1.075);
+}
+.footer__link:active {
+  @apply text-opacity-75;
+}
