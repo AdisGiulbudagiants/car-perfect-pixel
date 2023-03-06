@@ -10,18 +10,18 @@ const Navigation = () => {
           <p>Home</p>
         </Link>
         <Link
+          to="achievements"
+          duration={1000}
+          className={styles.text}
+          smooth={true}>
+          <p>Achievements</p>
+        </Link>
+        <Link
           to="advantages"
           duration={2000}
           className={styles.text}
           smooth={true}>
-          <p>Сar wrapping</p>
-        </Link>
-        <Link
-          to="services"
-          duration={2000}
-          className={styles.text}
-          smooth={true}>
-          <p>Our services</p>
+          <p>Advantages</p>
         </Link>
         <Link
           className={styles.text}
@@ -31,7 +31,6 @@ const Navigation = () => {
           <p>Gallery</p>
         </Link>
       </div>
-      {/* <SvgStore id="flag" /> */}
       <Flag />
     </div>
   )

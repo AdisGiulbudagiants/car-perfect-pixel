@@ -11,6 +11,10 @@ module.exports = {
       grey: "#898989",
       white: "#FFFFFF",
     },
+    fontFamily: {
+      anton: ["Anton"],
+      abeezee: ["ABeeZee"],
+    },
     extend: {},
   },
   plugins: [require("flowbite/plugin")],

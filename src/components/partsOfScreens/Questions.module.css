@@ -87,14 +87,14 @@
   height: 70px;
   margin-left: 5px;
   margin-top: 27px;
-  @apply flex;
+  @apply flex justify-between;
 }
 .partThree__leftWrapper {
   height: 70px;
   width: 187px;
 }
 .partThree__rightWrapper {
-  margin-left: 70px;
+  @apply flex flex-col items-end mr-6;
 }
 .partThree__geo {
   @apply flex;
@@ -108,7 +108,7 @@
 }
 
 .phoneAndMail {
-  margin-left: 80px;
+  margin: 15px 0 0 80px;
   @apply flex;
 }
 

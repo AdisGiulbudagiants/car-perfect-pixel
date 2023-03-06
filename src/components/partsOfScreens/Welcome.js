@@ -1,3 +1,4 @@
+import { Link } from "react-scroll"
 import Navigation from "../Navigation"
 import { ReactComponent as Dots } from "../icons/dots.svg"
 import Button from "../Button"
@@ -19,7 +20,9 @@ const Welcome = () => {
         </h1>
       </div>
       <div className="flex justify-center mt-12">
-        <Button name="OUR SERVICES" />
+        <Link to="services" smooth={true} duration={2000}>
+          <Button name="OUR SERVICES" />
+        </Link>
       </div>
       <TableForWelcome />
     </div>

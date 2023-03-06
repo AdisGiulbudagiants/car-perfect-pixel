@@ -93,19 +93,18 @@ const Questions = () => {
             <p>Home</p>
           </Link>
           <Link
-            to="advantages"
+            to="achievements"
             smooth={true}
-            duration={2000}
-            className={styles.footer__link}
-            href="#">
-            <p>Сar wrapping</p>
+            duration={2500}
+            className={styles.footer__link}>
+            <p>Achievements</p>
           </Link>
           <Link
-            to="services"
+            to="advantages"
             smooth={true}
             duration={1500}
             className={styles.footer__link}>
-            <p>Our services</p>
+            <p>Advantages</p>
           </Link>
           <Link
             to="gallery"

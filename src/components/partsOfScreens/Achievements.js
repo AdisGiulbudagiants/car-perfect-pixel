@@ -4,7 +4,7 @@ import styles from "./Achievements.module.css"
 
 const Achievements = () => {
   return (
-    <div className={styles.main}>
+    <div id="achievements" className={styles.main}>
       <div className={styles.leftWrapper}>
         <h1 className={styles.header}>
           OUR ACHIEVEMENTS FROM THE RUSSIAN CUP TO THE WORLD CHAMPIONSHIPS
