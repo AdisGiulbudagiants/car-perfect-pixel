@@ -6,7 +6,7 @@ import TableForWelcome from "../tables/TableForWelcome"
 
 const Welcome = () => {
   return (
-    <div className={styles.main}>
+    <div id="home" className={styles.main}>
       <Navigation />
       <h1 className={styles.header}>CAR MUSC</h1>
       <div className="flex justify-center mt-1.5">

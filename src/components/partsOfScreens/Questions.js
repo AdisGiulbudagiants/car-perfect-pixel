@@ -1,3 +1,4 @@
+import { Link } from "react-scroll"
 import { ReactComponent as Dots } from "../icons/dots.svg"
 import { ReactComponent as Telegram } from "../icons/telegram.svg"
 import { ReactComponent as Youtube } from "../icons/youtube.svg"
@@ -84,18 +85,35 @@ const Questions = () => {
           2022 © Est et viverra pellentesque pharetra lorem proin in
         </p>
         <div className={styles.footer__links}>
-          <a className={styles.footer__link} href="#">
+          <Link
+            to="home"
+            duration={2500}
+            smooth={true}
+            className={styles.footer__link}>
             <p>Home</p>
-          </a>
-          <a className={styles.footer__link} href="#">
-            <p>Second</p>
-          </a>
-          <a className={styles.footer__link} href="#">
-            <p>Third</p>
-          </a>
-          <a className={styles.footer__link} href="#">
+          </Link>
+          <Link
+            to="advantages"
+            smooth={true}
+            duration={2000}
+            className={styles.footer__link}
+            href="#">
+            <p>Сar wrapping</p>
+          </Link>
+          <Link
+            to="services"
+            smooth={true}
+            duration={1500}
+            className={styles.footer__link}>
+            <p>Our services</p>
+          </Link>
+          <Link
+            to="gallery"
+            smooth={true}
+            duration={1500}
+            className={styles.footer__link}>
             <p>Gallery</p>
-          </a>
+          </Link>
         </div>
       </footer>
     </div>

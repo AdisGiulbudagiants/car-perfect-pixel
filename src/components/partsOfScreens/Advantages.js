@@ -11,7 +11,7 @@ import styles from "./Advantages.module.css"
 
 const Advantages = () => {
   return (
-    <div className={styles.main}>
+    <div id="advantages" className={styles.main}>
       <div className={styles.leftWrapper}>
         <div className={styles.materials}>
           <div className={styles.materials__iconAndHeader}>

@@ -5,7 +5,7 @@ import styles from "./OurWorks.module.css"
 
 const OurWorks = () => {
   return (
-    <div className={styles.main}>
+    <div id="gallery" className={styles.main}>
       <div className={styles.header}>
         <h1>our works</h1>
       </div>
