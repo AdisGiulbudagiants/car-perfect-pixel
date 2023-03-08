@@ -13,29 +13,3 @@
   margin: 40px 0 60px 0;
   @apply mx-auto;
 }
-
-.cards {
-  @apply flex;
-}
-
-.card {
-  width: 306px;
-  height: 372px;
-  margin-right: 24px;
-  @apply border border-solid border-grey;
-}
-.card:last-child {
-  margin-right: 0;
-}
-.card__svg {
-  height: 57px;
-  margin: 67px 0 46px 0;
-  @apply flex justify-center;
-}
-.card__header {
-  font-size: 24px;
-  @apply text-white flex justify-center mb-5;
-}
-.card__text {
-  @apply text-white text-center uppercase w-[226px] mx-auto;
-}

@@ -19,7 +19,7 @@ const WelcomeSecond = () => {
         </h1>
       </div>
       <div className="flex justify-center mt-12">
-        <Link to="services" smooth={true} duration={2000}>
+        <Link to="prices" smooth={true} duration={2000}>
           <Button name="Prices" />
         </Link>
       </div>
