@@ -2,6 +2,8 @@ import WelcomeSecond from "../components/partsOfScreens/partsOfSecondScreen/Welc
 import Advantages from "../components/partsOfScreens/partsOfSecondScreen/Advantages"
 import About from "../components/partsOfScreens/partsOfSecondScreen/About"
 import Prices from "../components/partsOfScreens/partsOfSecondScreen/Prices"
+import OurWorks from "../components/partsOfScreens/OurWorks"
+import Questions from "../components/partsOfScreens/Questions"
 import styles from "./SecondScreen.module.css"
 
 const SecondScreen = () => {
@@ -11,6 +13,10 @@ const SecondScreen = () => {
       <Advantages />
       <About />
       <Prices />
+      <OurWorks />
+      <div className="mt-[120px]">
+        <Questions />
+      </div>
     </div>
   )
 }

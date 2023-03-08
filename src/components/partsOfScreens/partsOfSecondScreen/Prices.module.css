@@ -1,7 +1,7 @@
 .main {
   height: 827px;
   width: 1296px;
-  @apply flex flex-col;
+  @apply flex flex-col mb-[119px];
 }
 .main__header {
   @apply text-white text-center text-[52px] mx-auto;
