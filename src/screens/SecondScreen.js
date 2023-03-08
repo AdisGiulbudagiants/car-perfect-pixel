@@ -1,7 +1,14 @@
-import styles from "./Second.module.css"
+import AdvantagesSecondScreen from "../components/partsOfScreens/AdvantagesSecondScreen"
+import WelcomeSecond from "../components/partsOfScreens/WelcomeSecond"
+import styles from "./SecondScreen.module.css"
 
-const Second = () => {
-  return <div>Second</div>
+const SecondScreen = () => {
+  return (
+    <div className={styles.main}>
+      <WelcomeSecond />
+      <AdvantagesSecondScreen />
+    </div>
+  )
 }
 
-export default Second
+export default SecondScreen

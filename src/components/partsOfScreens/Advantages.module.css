@@ -59,11 +59,18 @@
 }
 
 .leftArrow, .rightArrow {
-  margin-top: 420px;
+  position: absolute;
+  width: 59px;
+  height: 64px;
+  top: 590px;
 }
 .leftArrow:hover, .rightArrow:hover {
   transform: scale(1.075);
   @apply fill-coral;
+}
+
+.rightArrow {
+  right: 15px;
 }
 
 .img {

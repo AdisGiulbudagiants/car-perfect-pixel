@@ -14,8 +14,16 @@ const AdvantagesSecond = () => {
     <div className={styles.main}>
       <div className={styles.leftWrapper}>
         <Carousel
-          leftControl={<LeftArrow className={styles.leftArrow} />}
-          rightControl={<RightArrow className={styles.rightArrow} />}
+          leftControl={
+            <div className={styles.leftArrow}>
+              <LeftArrow />
+            </div>
+          }
+          rightControl={
+            <div className={styles.rightArrow}>
+              <RightArrow />
+            </div>
+          }
           indicators={false}
           slideInterval={10000}>
           <>

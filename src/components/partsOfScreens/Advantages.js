@@ -27,7 +27,6 @@ const Advantages = () => {
           </p>
         </div>
         <Dots className={styles.dots} />
-
         <div className={styles.experience}>
           <div className={styles.experience__iconAndHeader}>
             <Experience height="70" className="mt-3" />
@@ -52,8 +51,16 @@ const Advantages = () => {
       </div>
       <div className={styles.rightWrapper}>
         <Carousel
-          leftControl={<LeftArrow className={styles.leftArrow} />}
-          rightControl={<RightArrow className={styles.rightArrow} />}
+          leftControl={
+            <div className={styles.leftArrow}>
+              <LeftArrow />
+            </div>
+          }
+          rightControl={
+            <div className={styles.rightArrow}>
+              <RightArrow />
+            </div>
+          }
           indicators={false}
           slideInterval={10000}>
           <>

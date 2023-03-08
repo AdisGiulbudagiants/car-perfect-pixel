@@ -1,0 +1,67 @@
+.main {
+  width: 1296px;
+  height: 675px;
+  margin-bottom: 166px;
+  @apply flex;
+}
+
+.leftWrapper, .rightWrapper {
+  width: 50%;
+}
+
+.leftWrapper {
+  font-size: 32px;
+}
+.leftWrapper__header {
+  width: 526px;
+  @apply text-white font-abeezee uppercase text-start mb-6;
+}
+.leftWrapper__dots {
+  @apply mb-6;
+}
+.leftWrapper__text {
+  font-size: 24px;
+  width: 440px;
+  height: 116px;
+  @apply font-anton text-start text-white;
+}
+.leftWrapper__icons {
+  width: 526px;
+  margin-top: 40px;
+  @apply flex items-end;
+}
+
+.icon {
+  margin-right: 50px;
+}
+
+.dots {
+  @apply mx-auto mt-10 mb-10;
+}
+
+.leftArrow, .rightArrow {
+  position: absolute;
+  width: 59px;
+  height: 64px;
+  top: 590px;
+}
+.leftArrow:hover, .rightArrow:hover {
+  transform: scale(1.075);
+  @apply fill-coral;
+}
+
+.rightArrow {
+  right: 15px;
+}
+
+.img {
+  width: 100%;
+  @apply object-cover;
+}
+
+.text {
+  width: 422px;
+  max-height: 75px;
+  font-size: 18px;
+  @apply mt-10 mx-auto text-white text-center uppercase;
+}

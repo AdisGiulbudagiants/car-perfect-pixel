@@ -1,0 +1,22 @@
+.main {
+  height: 960px;
+  margin: 40px 0 180px 0;
+}
+
+.header {
+  font-size: 64px;
+  margin-top: 74px;
+  width: 636px;
+  @apply text-coral text-center mx-auto flex justify-center select-none font-abeezee uppercase;
+}
+
+.text {
+  width: 437px;
+  height: 96px;
+  font-size: 24px;
+  @apply text-white mx-auto mt-10;
+}
+
+.svg {
+  margin: 0 auto;
+}
