@@ -1,5 +1,5 @@
-import { ReactComponent as Dots } from "../icons/dots.svg"
 import { Carousel } from "flowbite-react"
+import { ReactComponent as Dots } from "../icons/dots.svg"
 import Button from "../Button"
 import TablesForServicesFirst from "../tables/TablesForServicesFirst"
 import TablesForServicesSecond from "../tables/TablesForServicesSecond"

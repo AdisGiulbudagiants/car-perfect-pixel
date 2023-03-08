@@ -1,0 +1,33 @@
+
+.main
+    width: 1296px
+    height: 633px
+    margin-bottom: 180px
+    @apply flex flex-col
+    &__header
+        font-size: 52px
+        width: 636px
+        @apply text-white text-center uppercase font-abeezee mx-auto
+    &__dots
+        margin: 40px 0 60px 0
+        @apply mx-auto
+
+.cards
+    @apply flex
+
+.card
+    width: 306px
+    height: 372px
+    margin-right: 24px
+    @apply border border-solid border-grey
+    &:last-child
+        margin-right: 0
+    &__svg
+        height: 57px
+        margin: 67px 0 46px 0
+        @apply flex justify-center
+    &__header
+        font-size: 24px
+        @apply text-white flex justify-center mb-5
+    &__text
+        @apply text-white text-center uppercase w-[226px] mx-auto

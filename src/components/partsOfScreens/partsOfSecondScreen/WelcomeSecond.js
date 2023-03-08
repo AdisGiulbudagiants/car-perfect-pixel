@@ -1,7 +1,7 @@
 import { Link } from "react-scroll"
-import Navigation from "../Navigation"
-import { ReactComponent as Dots } from "../icons/dots.svg"
-import Button from "../Button"
+import Navigation from "../../Navigation"
+import { ReactComponent as Dots } from "../../icons/dots.svg"
+import Button from "../../Button"
 import styles from "./WelcomeSecond.module.css"
 
 const WelcomeSecond = () => {

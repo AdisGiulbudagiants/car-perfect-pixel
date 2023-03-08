@@ -1,16 +1,16 @@
 import { Carousel } from "flowbite-react"
-import { ReactComponent as LeftArrow } from "../icons/leftArrow.svg"
-import { ReactComponent as RightArrow } from "../icons/rightArrow.svg"
-import { ReactComponent as Dots } from "../icons/dots.svg"
-import { ReactComponent as Voys } from "../icons/voys.svg"
-import { ReactComponent as Star } from "../icons/star.svg"
-import car1 from "./img/imgForAdvantages.jpg"
-import car2 from "./img/imgForAdvantages2.jpg"
-import styles from "./AdvantagesSecondScreen.module.css"
+import { ReactComponent as LeftArrow } from "../../icons/leftArrow.svg"
+import { ReactComponent as RightArrow } from "../../icons/rightArrow.svg"
+import { ReactComponent as Dots } from "../../icons/dots.svg"
+import { ReactComponent as Voys } from "../../icons/voys.svg"
+import { ReactComponent as Star } from "../../icons/star.svg"
+import car1 from "../img/imgForAdvantages.jpg"
+import car2 from "../img/imgForAdvantages2.jpg"
+import styles from "../partsOfSecondScreen/Advantages.module.css"
 
-const AdvantagesSecondScreen = () => {
+const Advantages = () => {
   return (
-    <div id="advantages" className={styles.main}>
+    <div id="achievements" className={styles.main}>
       <div className={styles.leftWrapper}>
         <div className={styles.leftWrapper__header}>
           <h1>
@@ -75,4 +75,4 @@ const AdvantagesSecondScreen = () => {
   )
 }
 
-export default AdvantagesSecondScreen
+export default Advantages
