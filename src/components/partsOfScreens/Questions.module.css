@@ -1,7 +1,7 @@
 .main {
   width: 1296px;
   height: 745px;
-  @apply flex flex-col;
+  @apply flex flex-col mx-auto;
 }
 
 .wrapper {

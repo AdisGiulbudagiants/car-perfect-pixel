@@ -1,0 +1,5 @@
+.main {
+  width: 100%;
+  background-image: url("../backgroundCar.jpg");
+  @apply mx-auto bg-no-repeat bg-scroll;
+}

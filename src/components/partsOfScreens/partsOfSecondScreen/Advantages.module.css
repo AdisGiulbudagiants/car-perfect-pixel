@@ -2,7 +2,7 @@
   width: 1296px;
   height: 675px;
   margin: 0 0 166px 0;
-  @apply flex;
+  @apply flex mx-auto;
 }
 
 .leftWrapper, .rightWrapper {

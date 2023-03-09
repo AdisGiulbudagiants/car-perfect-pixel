@@ -1,6 +1,8 @@
 .main {
+  width: 1296px;
   height: 960px;
   margin: 40px 0 180px 0;
+  @apply mx-auto;
 }
 
 .header {

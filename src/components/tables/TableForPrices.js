@@ -1,4 +1,3 @@
-import { Table } from "flowbite-react"
 import styles from "./TableForPrices.module.css"
 
 const TableForPrices = () => {

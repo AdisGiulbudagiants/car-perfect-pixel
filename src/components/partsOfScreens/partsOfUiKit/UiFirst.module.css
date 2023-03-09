@@ -1,0 +1,8 @@
+.main {
+  width: 1296px;
+  height: 484px;
+  @apply flex flex-col bg-black;
+}
+.main__table {
+  @apply text-white uppercase text-[52px] font-abeezee mt-[100px] mb-[50px] h-[73px];
+}

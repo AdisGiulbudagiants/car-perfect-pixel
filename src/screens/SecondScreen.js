@@ -4,7 +4,7 @@ import About from "../components/partsOfScreens/partsOfSecondScreen/About"
 import Prices from "../components/partsOfScreens/partsOfSecondScreen/Prices"
 import OurWorks from "../components/partsOfScreens/OurWorks"
 import Questions from "../components/partsOfScreens/Questions"
-import styles from "./SecondScreen.module.css"
+import styles from "./Screens.module.css"
 
 const SecondScreen = () => {
   return (

@@ -6,7 +6,7 @@ import Services from "../components/partsOfScreens/Services"
 import AdvantagesSecond from "../components/partsOfScreens/AdvantagesSecond"
 import OurWorks from "../components/partsOfScreens/OurWorks"
 import Questions from "../components/partsOfScreens/Questions"
-import styles from "./FirstScreen.module.css"
+import styles from "./Screens.module.css"
 
 const FirstScreen = () => {
   return (
