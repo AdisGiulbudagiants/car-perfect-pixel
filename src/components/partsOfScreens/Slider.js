@@ -1,4 +1,5 @@
 import { Carousel } from "flowbite-react"
+import { Link } from "react-router-dom"
 import { ReactComponent as LeftArrow } from "../icons/leftArrow.svg"
 import { ReactComponent as RightArrow } from "../icons/rightArrow.svg"
 import Button from "../Button"
@@ -26,19 +27,25 @@ const Slider = () => {
             <div className={styles.card}>
               <img className={styles.img} src={car1} alt="cars" />
               <div className={styles.button}>
-                <Button name="click" />
+                <Link to="price">
+                  <Button name="click" />
+                </Link>
               </div>
             </div>
             <div className={styles.card}>
               <img className={styles.img} src={car2} alt="cars" />
               <div className={styles.button}>
-                <Button name="click" />
+                <Link to="price">
+                  <Button name="click" />
+                </Link>
               </div>
             </div>
             <div className={styles.card}>
               <img className={styles.img} src={car3} alt="cars" />
               <div className={styles.button}>
-                <Button name="click" />
+                <Link to="price">
+                  <Button name="click" />
+                </Link>
               </div>
             </div>
           </div>
@@ -48,19 +55,25 @@ const Slider = () => {
             <div className={styles.card}>
               <img className={styles.img} src={car11} alt="cars" />
               <div className={styles.button}>
-                <Button name="click" />
+                <Link to="price">
+                  <Button name="click" />
+                </Link>
               </div>
             </div>
             <div className={styles.card}>
               <img className={styles.img} src={car8} alt="cars" />
               <div className={styles.button}>
-                <Button name="click" />
+                <Link to="price">
+                  <Button name="click" />
+                </Link>
               </div>
             </div>
             <div className={styles.card}>
               <img className={styles.img} src={car12} alt="cars" />
               <div className={styles.button}>
-                <Button name="click" />
+                <Link to="price">
+                  <Button name="click" />
+                </Link>
               </div>
             </div>
           </div>
@@ -70,19 +83,25 @@ const Slider = () => {
             <div className={styles.card}>
               <img className={styles.img} src={car7} alt="cars" />
               <div className={styles.button}>
-                <Button name="click" />
+                <Link to="price">
+                  <Button name="click" />
+                </Link>
               </div>
             </div>
             <div className={styles.card}>
               <img className={styles.img} src={car6} alt="cars" />
               <div className={styles.button}>
-                <Button name="click" />
+                <Link to="price">
+                  <Button name="click" />
+                </Link>
               </div>
             </div>
             <div className={styles.card}>
               <img className={styles.img} src={car13} alt="cars" />
               <div className={styles.button}>
-                <Button name="click" />
+                <Link to="price">
+                  <Button name="click" />
+                </Link>
               </div>
             </div>
           </div>

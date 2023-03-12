@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { ReactComponent as WashHand } from "../icons/washHand.svg"
 import { ReactComponent as List } from "../icons/list.svg"
 import { ReactComponent as Experience } from "../icons/experience.svg"
@@ -24,7 +25,9 @@ const TablesForServicesSecond = () => {
             </p>
           </div>
           <div className={styles.cart__button}>
-            <Button name="more" />
+            <Link to="services">
+              <Button name="more" />
+            </Link>
           </div>
         </div>
         {/* Cart 2 */}
@@ -42,7 +45,9 @@ const TablesForServicesSecond = () => {
             </p>
           </div>
           <div className={styles.cart__button}>
-            <Button name="more" />
+            <Link to="services">
+              <Button name="more" />
+            </Link>
           </div>
         </div>
         {/* Cart 3 */}
@@ -60,7 +65,9 @@ const TablesForServicesSecond = () => {
             </p>
           </div>
           <div className={styles.cart__button}>
-            <Button name="more" />
+            <Link to="services">
+              <Button name="more" />
+            </Link>
           </div>
         </div>
         {/* Cart 4 */}
@@ -78,7 +85,9 @@ const TablesForServicesSecond = () => {
             </p>
           </div>
           <div className={styles.cart__button}>
-            <Button name="more" />
+            <Link to="services">
+              <Button name="more" />
+            </Link>
           </div>
         </div>
       </div>

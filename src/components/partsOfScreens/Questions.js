@@ -1,4 +1,5 @@
-import { Link } from "react-scroll"
+import { Link as LinkScroll } from "react-scroll"
+import { Link } from "react-router-dom"
 import { useState } from "react"
 import { ReactComponent as Dots } from "../icons/dots.svg"
 import { ReactComponent as Telegram } from "../icons/telegram.svg"
@@ -109,34 +110,30 @@ const Questions = () => {
           2022 © Est et viverra pellentesque pharetra lorem proin in
         </p>
         <div className={styles.footer__links}>
-          <Link
-            to="home"
-            duration={2500}
-            smooth={true}
-            className={styles.footer__link}>
+          <Link to="/" className={styles.footer__link}>
             <p>Home</p>
           </Link>
-          <Link
+          <LinkScroll
             to="achievements"
             smooth={true}
             duration={2500}
             className={styles.footer__link}>
             <p>Achievements</p>
-          </Link>
-          <Link
+          </LinkScroll>
+          <LinkScroll
             to="advantages"
             smooth={true}
             duration={1500}
             className={styles.footer__link}>
             <p>Advantages</p>
-          </Link>
-          <Link
+          </LinkScroll>
+          <LinkScroll
             to="gallery"
             smooth={true}
             duration={1500}
             className={styles.footer__link}>
             <p>Gallery</p>
-          </Link>
+          </LinkScroll>
         </div>
       </footer>
     </div>
