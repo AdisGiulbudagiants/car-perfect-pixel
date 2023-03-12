@@ -1,0 +1,11 @@
+.main {
+  width: 1296px;
+  height: 790px;
+  @apply flex flex-col mx-auto;
+}
+.main__text {
+  @apply justify-center mb-10 mt-72 mx-auto text-white text-[102px] animate-pulse select-none;
+}
+.main__button {
+  @apply mx-auto;
+}

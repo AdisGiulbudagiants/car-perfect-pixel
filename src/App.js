@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom"
 import FirstScreen from "./screens/FirstScreen"
 import SecondScreen from "./screens/SecondScreen"
 import UiKit from "./screens/UiKit"
+import NotFound from "./screens/NotFound"
 import "./App.css"
 
 function App() {
@@ -13,14 +14,7 @@ function App() {
             <Route index element={<FirstScreen />} />
             <Route path="services" element={<SecondScreen />} />
             <Route path="price" element={<UiKit />} />
-            <Route
-              path="*"
-              element={
-                <h1 className="text-white mx-auto text-[102px] mt-[200px]">
-                  Not Found
-                </h1>
-              }
-            />
+            <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
       </div>
