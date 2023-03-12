@@ -1,4 +1,5 @@
 import { Link } from "react-scroll"
+import { useState } from "react"
 import { ReactComponent as Dots } from "../icons/dots.svg"
 import { ReactComponent as Telegram } from "../icons/telegram.svg"
 import { ReactComponent as Youtube } from "../icons/youtube.svg"
@@ -10,6 +11,10 @@ import Button from "../Button"
 import styles from "./Questions.module.css"
 
 const Questions = () => {
+  const [name, setName] = useState("")
+  const [phone, setPhone] = useState("")
+  const [text, setText] = useState("")
+
   return (
     <div className={styles.main}>
       <div className={styles.wrapper}>
@@ -22,10 +27,25 @@ const Questions = () => {
         <div className={styles.partOne}>
           <div className={styles.partOne__inputs}>
             <label>
-              <input className={styles.name} placeholder="Name" />
+              <input
+                className={styles.name}
+                value={name}
+                onChange={(e) => {
+                  setName(e.target.value)
+                }}
+                placeholder="Name"
+              />
             </label>
             <label>
-              <input required className={styles.phone} placeholder="Phone" />
+              <input
+                required
+                className={styles.phone}
+                value={phone}
+                onChange={(e) => {
+                  setPhone(e.target.value)
+                }}
+                placeholder="Phone"
+              />
             </label>
           </div>
           <div className={styles.partTwo}>
@@ -33,6 +53,10 @@ const Questions = () => {
               <textarea
                 required
                 className={styles.questions}
+                value={text}
+                onChange={(e) => {
+                  setText(e.target.value)
+                }}
                 placeholder="Question about design, tuning, etc."
               />
             </div>
@@ -55,9 +79,9 @@ const Questions = () => {
             </div>
           </div>
           <div className={styles.partThree}>
-            <div className={styles.partThree__leftWrapper}>
-              <Button name="send" />
-            </div>
+            <form className={styles.partThree__leftWrapper}>
+              <Button type="submit" name="send" />
+            </form>
             <div className={styles.partThree__rightWrapper}>
               <div className={styles.partThree__geo}>
                 <Geo />

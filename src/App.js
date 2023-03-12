@@ -6,9 +6,9 @@ import "./App.css"
 function App() {
   return (
     <div className="App">
-      {/* <FirstScreen /> */}
+      <FirstScreen />
       {/* <SecondScreen /> */}
-      <UiKit />
+      {/* <UiKit /> */}
     </div>
   )
 }

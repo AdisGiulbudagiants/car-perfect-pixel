@@ -1,8 +1,8 @@
 import styles from "./Button.module.css"
 
-const Button = ({ name, style }) => {
+const Button = ({ name, onSubmit }) => {
   return (
-    <button style={style} className={styles.button}>
+    <button onSubmit={onSubmit} className={styles.button}>
       {name}
     </button>
   )
